@@ -1,5 +1,7 @@
 {
   "name": "daggerhart/random-local-avatars",
+  "type": "wordpress-plugin",
+  "keywords": [ "wordpress" ],
   "authors": [
     {
       "name": "Jonathan Daggerhart",
@@ -7,7 +9,9 @@
     }
   ],
   "require": {
+    "composer/installers": "^1.0.0",
     "jdenticon/jdenticon": "^0.10.0",
+    "php": ">=5.4",
     "yzalis/identicon": "^1.2",
     "sandfoxme/monsterid": "^1.1"
   },
