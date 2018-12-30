@@ -2,6 +2,15 @@
 
 WordPress plugin that acts as a local replacement for Gravatars.
 
+## How To Install
+
+At the moment, this plugin requires you to run `composer install` before use.
+
+1. Download the plugin
+1. Unzip it to your WordPress plugins folder
+1. Visit the plugin's folder in a terminal window
+1. Run `composer install`
+
 ## How To Use
 
 * Enable this plugin
