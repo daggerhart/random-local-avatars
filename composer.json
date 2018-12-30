@@ -1,0 +1,19 @@
+{
+  "name": "daggerhart/random-local-avatars",
+  "authors": [
+    {
+      "name": "Jonathan Daggerhart",
+      "email": "jonathan@daggerhart.com"
+    }
+  ],
+  "require": {
+    "jdenticon/jdenticon": "^0.10.0",
+    "yzalis/identicon": "^1.2",
+    "sandfoxme/monsterid": "^1.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "RandomLocalAvatars\\": "src/"
+    }
+  }
+}
