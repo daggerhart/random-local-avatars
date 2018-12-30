@@ -4,10 +4,11 @@
  * Plugin URI: https://github.com/daggerhart/random-local-avatars
  * Description: Because privacy reasons.
  * Author: Jonathan Daggerhart
+ * Author URI: http://daggerhart.com
  * Version: 1.0
  * Requires PHP: 5.4
- * Author URI: http://daggerhart.com
  * License: GPL2
+ * License URI:  https://www.gnu.org/licenses/gpl-2.0.html
  */
 
 require_once __DIR__ . '/vendor/autoload.php';
@@ -15,6 +16,7 @@ require_once __DIR__ . '/vendor/autoload.php';
 // initialize the plugin
 call_user_func(function () {
   new RandomLocalAvatarsPlugin();
+
 });
 
 /**
