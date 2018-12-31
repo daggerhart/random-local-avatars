@@ -187,7 +187,7 @@ class RandomLocalAvatarsPlugin {
    * @return string
    */
   protected function createAvatarHash($data) {
-    $unique = maybe_serialize($data);
+    $unique = NULL;
 
     if (is_numeric($data)) {
       $user = get_userdata((int) $data);
@@ -206,6 +206,10 @@ class RandomLocalAvatarsPlugin {
 
     if (empty($unique) && is_a($data, 'WP_Comment')) {
       $unique = $data->comment_author_email;
+    }
+
+    if (empty($unique)) {
+      $unique = maybe_serialize($data);
     }
 
     return md5($unique);
