@@ -5,7 +5,7 @@
  * Description: Because privacy reasons.
  * Author: Jonathan Daggerhart
  * Author URI: http://daggerhart.com
- * Version: 1.0
+ * Version: 1.1
  * Requires PHP: 5.4
  * License: GPL2
  * License URI:  https://www.gnu.org/licenses/gpl-2.0.html
