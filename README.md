@@ -8,6 +8,7 @@ Works with the Simple Local Avatars plugin.
 
 1. Download the plugin
 1. Unzip it to your WordPress plugins folder
+1. **If not installed w/ composer** - Navigate to the plugin directory and run `composer install`
 1. Enable this plugin
 1. Visit Dashboard > Settings > Discussion
 1. Select desired avatar style

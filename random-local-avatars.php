@@ -5,18 +5,19 @@
  * Description: Because privacy reasons.
  * Author: Jonathan Daggerhart
  * Author URI: http://daggerhart.com
- * Version: 1.1
+ * Version: 1.2
  * Requires PHP: 5.4
  * License: GPL2
  * License URI:  https://www.gnu.org/licenses/gpl-2.0.html
  */
 
-require_once __DIR__ . '/vendor/autoload.php';
+if (file_exists(__DIR__ . '/vendor/autoload.php')) {
+	require_once __DIR__ . '/vendor/autoload.php';
+}
 
 // initialize the plugin
 call_user_func(function () {
   new RandomLocalAvatarsPlugin();
-
 });
 
 /**
