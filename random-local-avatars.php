@@ -194,7 +194,7 @@ class RandomLocalAvatarsPlugin {
       $user = get_userdata((int) $data);
     }
     else if (is_string($data)) {
-      $user = get_user_by_email($data);
+      $user = get_user_by('email', $data);
     }
     else if (is_a($data, 'WP_Post')) {
       $user = get_userdata((int) $data->user_id);
